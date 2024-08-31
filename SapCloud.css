@@ -1,0 +1,428 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cb2aj {
+    background:  linear-gradient(to right,  #56CCF2, #2F80ED);
+color:white;
+    
+}
+
+.flexingaj{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imgaj{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.style3aj{
+    display:flex;
+      flex-Direction:row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 40px;
+      padding-bottom: 20px;
+  }
+
+
+  .img4aj{
+    width: 35%;
+  height: 350px ;
+  margin: 0 auto ;
+   border-Radius:10px;
+    box-Shadow:0px 0px 5px 0px;
+  }
+  .image3aj{
+  
+    border-Radius:18px 18px 18px 18px;
+    width: 80%;
+  
+  
+  }
+  .T43aj{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:wittgenstein;
+    padding-right: 30px;
+    display: flex;
+    text-align: left;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-overlayaj {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 81%;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.card-body ul {
+    padding-left: 1rem;
+}
+
+.card-body ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card-body ul li p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.txt4aj{
+    position: absolute;
+    top: 30%;
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+
+.flex4aj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   flex-direction: column;
+}
+.card12aj{
+    height: 250px;
+    width: 700px;
+    border-radius: 8px;
+   }
+
+
+
+
+.T81aj{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 20px;
+
+
+
+}
+.T8aj{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 0px;
+    font-family:wittgenstein;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top:20px;
+   
+    }
+
+
+.bgaj{
+    background-color: rgb(227, 227, 228);
+}
+.flex83aj{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Default font sizes */
+.txt4aj h2 {
+    font-size: 24px; /* Default size */
+}
+
+.txt4aj p {
+    font-size: 18px; /* Default size */
+}
+
+.btnaj {
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+  border-radius: 8px;
+    background-color: transparent;
+  }
+  .btnaj:hover{
+    background-color: white;
+    color: black;
+  }
+/* Small tablets (425px to 767px) */
+@media (min-width: 425px) and (max-width: 767px) {
+    .txt4aj h2 {
+        font-size: 28px;
+    }
+    .txt4aj p {
+        font-size: 19px;
+    }
+    .btnaj {
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+
+    .T8aj{
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 0px;
+        font-family: wittgenstein;
+        padding-left: 20px;
+        padding-right: 1px;
+        padding-top: 14px;
+    }
+    .card12aj {
+        height: 180px;
+        width: 358px;
+        border-radius: 8px;
+    }
+    .txt4aj {
+        position: absolute;
+        top: 5%;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        /* padding-left: 200px; */
+    }
+    .T43aj {
+        font-size: 11px;
+    }
+    .style3aj {
+        display: flex;
+        flex-Direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .img4aj {
+        width: 55%;
+        height: 143px;
+    }
+    .image3aj {
+        border-Radius: 18px 18px 18px 18px;
+        width: 50%;
+        margin-left: 60px;
+    }
+    .T43aj {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .flex83aj {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+}
+
+/* Large tablets and small laptops (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .txt4aj h2 {
+        font-size: 30px;
+    }
+    .txt4aj p {
+        font-size: 20px;
+    }
+    .btnaj {
+        font-size: 18px;
+        padding: 12px 24px;
+    }
+    .card12aj {
+        height: 306px;
+        width: 361px;
+    }
+    .T81aj{
+        font-size: 40px;
+    }
+    .T8aj{
+        font-size: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+    }
+    .style3aj {
+      
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .T43aj {
+        font-size: 15px;
+    }
+    .img4aj {
+        width: 49%;
+        height: 178px;
+    }
+    
+
+
+
+
+}
+
+/* Laptops (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .txt4aj h2 {
+        font-size: 49px;
+    }
+    .txt4aj p {
+        font-size: 35px;
+    }
+    .btnaj {
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+    .card12aj {
+        height: 330px;
+        width: 436px;
+        border-radius: 8px;
+    }
+    
+    
+
+}
+
+/* Desktops (1200px and above) */
+@media (min-width: 1200px) {
+    .txt4aj h2 {
+        font-size: 70px;
+    }
+    .txt4aj p {
+        font-size: 35px;
+    }
+    .btnaj {
+        font-size: 22px;
+        padding: 16px 32px;
+    }
+}
+
+
+  
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .txt4aj h2 {
+        font-size: 20px;
+    }
+    .txt4aj p {
+        font-size: 15px;
+    }
+    .txt4aj{
+        top: 3%;
+    }    
+    .T8aj{
+            
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 0px;
+        font-family: wittgenstein;
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }   
+   .T81aj{
+font-size: 30px;
+   }     
+   .card12aj{
+    height: 208px;
+    width: 282px;
+        border-radius: 8px;
+
+
+    }
+    .btnaj {
+        font-size: 15px;
+        padding: 12px 15px;
+    }
+    .style3aj {
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .T43aj {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .img4aj {
+        width: 49%;
+        height: 109px;
+    }
+
+    .image3aj {
+        border-Radius: 18px 18px 18px 18px;
+        width: 69%;
+        margin-left: 45px;
+    }
+    .flex83aj {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+    /* .btn {
+        font-size: 5px;
+        padding: 8px 10px;
+     
+
+    } */
+
+}

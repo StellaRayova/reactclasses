@@ -1,0 +1,211 @@
+.bodyop {
+    overflow-x: hidden;
+  }
+.cardppp img {
+    width: 100%;
+    height: auto;
+}
+.cb2pm {
+    background:  linear-gradient(to right,  #56CCF2, #2F80ED);
+color: black;   
+}
+.txtpr1{
+    position: absolute;
+    top: 5%;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.card4pr{
+    height: auto;
+    width: 80%;
+    border-radius: 8px;
+    color: #f9f9f9;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.flex4pr2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   flex-direction: column;
+   flex-direction: row;
+}
+.abpr2{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;   
+}
+.efpr2{
+    align-items: center;
+}
+.T2pr2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.T3pr2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:wittgenstein;  
+    padding-top:20px;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+    }
+.T4pr2{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.T5pr2{
+    font-size: 22px;
+    font-weight: 400;
+    font-family:wittgenstein;  
+    
+}
+.btnpr2 {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+/* Media queries for increasing font sizes on larger screens */
+@media (min-width: 768px) {
+   
+
+    
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjust size for tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px; /* Adjust size for laptops */
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .btn {
+        font-size: 22px;
+        padding: 16px 32px; /* Adjust size for desktops */
+    }
+}
+@media (max-width: 375px) {
+    .txtpr1{    
+        position: absolute;
+        top: 1.5%;
+        color: white;  
+        font-size: 20px;
+    }
+}
+@media (orientation:landscape) {
+    .gf{margin-top: 260px;}
+}
+.cardpr2 {
+    width: 100%; 
+    overflow: hidden; 
+    border: none; 
+}
+
+.image-containerpr2 {
+    position: relative;
+    width: 100%; /* Full width of the card */
+}
+
+.img-fluidpr2 {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures the image is a block element */
+}
+
+.overlaypr2 {
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    opacity: 1; /* Ensure overlay is always visible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Optional: Add padding for better text visibility */
+}
+
+
+
+.btn-outline-lightpr2 {
+    margin-top: 10px;
+    border: 2px solid white; /* White border */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 5px; /* Rounded button corners */
+    background: transparent; /* Transparent background */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition:  0.3s ease, color 0.3s ease; /* Smooth background and color transition */
+}
+
+.btn-outline-lightpr2:hover {
+    background: white; /* White background on hover */
+    color: black; /* Black text on hover */
+}
+
+.measpicppr2{
+    height: auto;
+    width: 40%;
+    margin-left: 28%;
+    margin-bottom: 30px;
+   
+    /* display: flex; */
+}
+.measpicp1pr2{
+    height: 90%;
+    width: 90%;
+    margin-bottom: 30px;
+    
+}
+.appr2{
+    display: flex;
+    margin-left: 26%;
+    
+
+}
+.measpicp2pr2{
+    height: 90%;
+    width: 90%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+.up-arrow, .down-arrow {
+    position: fixed;
+    right: 20px;
+    z-index: 1000;
+    border-radius:10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-color: #b1b3b6;
+    color: #b1b3b6;
+    
+
+}
+
+.up-arrow {
+    bottom: 80px;
+}
+
+.down-arrow {
+    bottom: 20px;
+}
+
+.up-arrow i, .down-arrow i {
+    font-size: 20px;
+}

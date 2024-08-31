@@ -1,0 +1,161 @@
+.Ai-card {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
+.ullikk {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    color: white;
+}
+.txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Hp {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.ptext {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.t18 {
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.card3 {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #4EC1E6, #2F96B4);
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+.ptext1{
+    color: white;
+}
+.why-choose h2 {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.why-choose ul {
+    font-family: 'wittgenstein';  
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.why-choose li {
+    font-family: 'wittgenstein';
+    margin-bottom: 10px;
+    color: black;
+}
+
+.wp {
+    text-align: justify;
+}
+.t70{
+    font-size: 70px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Default font sizes */
+.txt h2 {
+    font-size: 24px; /* Default size */
+}
+
+.txt p {
+    font-size: 18px; /* Default size */
+}
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.why-choosehead{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+/* Media queries for increasing font sizes on larger screens */
+@media (min-width: 768px) {
+    .txt h2
+    {
+        font-size: 50px; /* Adjust size for tablets */
+    }
+
+    .txt p {
+        font-size: 30px; /* Adjust size for tablets */
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjust size for tablets */
+    }
+}
+
+@media (min-width: 992px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for laptops */
+    }
+
+    .txt p {
+        font-size: 35px; /* Adjust size for laptops */
+    }
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px; /* Adjust size for laptops */
+    }
+}
+
+@media (min-width: 1200px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for desktops */
+    }
+
+    .txt p {
+        font-size: 35px; /* Adjust size for desktops */
+    }
+    .btn {
+        font-size: 22px;
+        padding: 16px 32px; /* Adjust size for desktops */
+    }
+}
