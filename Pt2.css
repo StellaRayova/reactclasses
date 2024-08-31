@@ -1,0 +1,12 @@
+.img{
+        width: 1600px;
+        height: 752px;
+    }
+
+    .p{
+        font-size: 100px;
+        font-weight: 30px;
+        position: absolute;
+        /* margin-top: -425px; */
+        top: 56px;
+        }

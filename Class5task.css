@@ -1,0 +1,23 @@
+.img{
+    height:350px;
+    width:350px;
+}
+.card{
+    height: 550px;
+    width: 350px;
+    border: 0cap;
+    background-color: rgb(108, 162, 209);
+    margin-left: 300px;
+    margin-top: 60px;
+
+
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* style={{display:"flex",flexDirection:"column"}} */
