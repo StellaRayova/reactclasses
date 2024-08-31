@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: '6fr 6fr 3fr 3fr' ; /* Adjust column width as needed */
+    gap: 20px;
+    justify-items: center; /* Centers items horizontally within each grid cell */
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
