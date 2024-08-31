@@ -1,0 +1,173 @@
+.para{
+    /* padding-left: 14px; */
+    font-size: 20px;
+    font-weight: 400;
+    /* margin-top: 50px;
+    margin-right: 75px;
+    margin-left: 75px; */
+    /* line-height: 1.5; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.div1card{
+    height: 100%;
+    background-color: white;
+    /* margin: 0px 10px 0px;
+    margin-left: 70px; 
+    margin-right: 70px; */
+
+}
+
+.txt{
+    position: absolute;
+    top: 16%;
+    color:white;
+    font-size: 76px;
+    font-weight: 600;
+}
+.flex1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fl{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.c{
+    height: 345px;
+    /* width: 600px; */
+    width: 65%;
+    /* background-color: #00C6FF; */
+    margin-bottom: 10px;
+    box-shadow: 0px 1px 1px 0px;
+  }
+
+   .display{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     
+} 
+
+.d{
+    /* align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center; */
+    padding-left: 20px;
+     
+} 
+
+.fonttitle{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+.fontsize{
+    font-size: 20px;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    }
+
+
+
+    .Saascard{
+        height: 135px;
+        width: 45%;
+        /* background-color: #00C6FF; */
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px 0px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .omscard{
+        height: 190px;
+        width: 94%;
+        /* background-color: lightblue; */
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px 0px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .omscard1{
+        height: 190px;
+        width: 45%;
+        /* background-color: lightblue; */
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px 0px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .aos{
+            height: 310px;      
+                  width: 45%;
+            /* background-color: lightblue; */
+            margin-bottom: 10px;
+            box-shadow: 0px 1px 1px 0px;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+    
+    }
+
+    .aos1{
+        height: 250px;
+        width: 29%;
+        /* background-color: lightblue; */
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px 0px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+
+    .titlecard{
+        height: 50px;
+        width: 45%;
+        /* background-color: #0052D4; */
+        margin-bottom: 10px;
+        box-shadow: 0px 1px 1px 0px;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 20px;
+        font-weight:400;
+
+    }
+
+    .cb2{
+        background: linear-gradient(to right,   #0072FF, #00C6FF);
+       color: white;
+    }
+
+
