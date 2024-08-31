@@ -1,0 +1,159 @@
+.bg{
+    background-color: rgb(227, 227, 228);
+  }
+  
+  .img {
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+}
+
+.sideimg{
+width: 450px;
+height: 400;
+margin: 15px;
+margin-left: 20;
+}
+
+.m{
+    display: flex;
+    flex-direction: "row"; 
+    align-content: center;
+    /* justify-content: space-between; */
+    margin-top: 10px;
+     margin-left: 20px;
+     /* gap: 5px; */
+     margin:5px;
+}
+
+.body {
+    overflow-x: hidden;
+  }
+
+  /* .txt{
+      position: absolute;
+      top: 16%;
+      color:white;
+      font-size: 50px;
+      font-weight: 600;
+  } */
+  .flex1{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  .headingss{
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 5px;
+      margin-top: 10px;
+  }
+  
+  .fontsz{
+          font-size: 22px;
+          font-weight: 400;
+          margin-top: 0px;
+          font-family:wittgenstein;
+  }
+  
+  .paras{
+          font-size: 22px;
+          font-weight: 400;
+          /* margin-top: 0px; */
+          font-family:wittgenstein;
+          /* padding-left: 14px; */
+          /* margin-top: 50px;
+          margin-right: 75px;
+          margin-left: 75px;
+          line-height: 1.5; */
+      
+  
+  }
+  
+  
+  .contr{
+      height: 400px;
+      width: 65%;
+          background:  linear-gradient(to right,   #4073b3, #00C6FF);
+          color: black;
+         border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: white;
+        margin-right: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  
+  
+  
+  /*  */
+
+  h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Default font sizes */
+.txt h2 {
+    font-size: 24px; /* Default size */
+}
+
+.txt p {
+    font-size: 18px; /* Default size */
+}
+.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+/* Media queries for increasing font sizes on larger screens */
+@media (min-width: 768px) {
+    .txt h2
+    {
+        font-size: 50px; /* Adjust size for tablets */
+    }
+
+    .txt p {
+        font-size: 30px; /* Adjust size for tablets */
+    }
+    .btn {
+        font-size: 18px;
+        padding: 12px 24px; /* Adjust size for tablets */
+
+    }
+}
+
+@media (min-width: 992px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for laptops */
+    }
+
+    .txt p {
+        font-size: 35px; /* Adjust size for laptops */
+    }
+    .btn {
+        font-size: 20px;
+        padding: 14px 28px; /* Adjust size for laptops */
+    }
+}
+
+@media (min-width: 1200px) {
+    .txt h2 {
+        font-size: 70px; /* Adjust size for desktops */
+    }
+
+    .txt p {
+        font-size: 35px; /* Adjust size for desktops */
+    }
+    .btn {
+        font-size: 22px;
+        padding: 16px 32px; /* Adjust size for desktops */
+    }
+}
